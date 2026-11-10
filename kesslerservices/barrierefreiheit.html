@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Accessibility | Kessler Services AG</title>
+    <meta
+      name="description"
+      content="Accessibility statement and WCAG 2.2 AA notice for the Kessler Services AG website."
+    >
+    <meta name="theme-color" content="#070807">
+    <link rel="icon" href="assets/ks-gold-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content" data-i18n="common.skip">Skip to content</a>
+    <canvas id="signalCanvas" aria-hidden="true"></canvas>
+
+    <header class="topbar" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Kessler Services AG home">
+        <img class="brand-mark" src="assets/ks-gold-mark.svg" width="40" height="40" alt="" aria-hidden="true">
+        <span>
+          <strong>Kessler Services AG</strong>
+          <small>Bellach SO</small>
+        </span>
+      </a>
+      <nav class="nav-links" id="primary-navigation" aria-label="Page navigation">
+        <a href="index.html#profil" data-i18n="nav.profile">Profile</a>
+        <a href="index.html#leistungen" data-i18n="nav.offering">Offering</a>
+        <a href="impressum.html" data-i18n="footer.legal">Legal Notice</a>
+        <a href="index.html#kontakt" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <div class="language-switch" aria-label="Language selection">
+          <button type="button" data-lang-option="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang-option="de" aria-pressed="false">DE</button>
+        </div>
+        <button class="mobile-menu-button" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <a class="nav-cta" href="index.html#kontakt" data-i18n="nav.cta">Start an Inquiry</a>
+      </div>
+    </header>
+
+    <main class="legal-main" id="main-content">
+      <section class="legal-hero">
+        <p class="eyebrow" data-i18n="access.eyebrow">Accessibility</p>
+        <h1 data-i18n="access.title">WCAG 2.2 AA</h1>
+        <p class="hero-text" data-i18n="access.intro">
+          This static offline website has been designed and checked against the
+          relevant WCAG 2.2 Level AA requirements.
+        </p>
+      </section>
+
+      <section class="legal-content">
+        <article class="legal-block">
+          <h2 data-i18n="access.status">Status</h2>
+          <div>
+            <p data-i18n="access.status.text">
+              Page structure, navigation, color contrast, focus states, keyboard
+              interaction and animations have been aligned with WCAG 2.2 AA. The
+              site contains no forms, no audio or video content and no external
+              tracking or script dependencies.
+            </p>
+          </div>
+        </article>
+
+        <article class="legal-block">
+          <h2 data-i18n="access.implementation">Implementation</h2>
+          <div>
+            <ul>
+              <li data-i18n="access.impl.1">Semantic HTML structure with header, navigation, main and footer.</li>
+              <li data-i18n="access.impl.2">Skip link for direct access to the main content.</li>
+              <li data-i18n="access.impl.3">Visible focus states for links and buttons.</li>
+              <li data-i18n="access.impl.4">Sufficient color contrast for text, links and controls.</li>
+              <li data-i18n="access.impl.5">Reduced motion support when enabled in system settings.</li>
+              <li data-i18n="access.impl.6">Alternative text or decorative marking for images and graphics.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="legal-block">
+          <h2 data-i18n="access.contact">Contact</h2>
+          <div>
+            <p>
+              <span data-i18n="access.contact.prefix">Accessibility barriers or display issues can be reported by e-mail to</span>
+              <a href="mailto:info@kessler-services.ch">info@kessler-services.ch</a>.
+            </p>
+          </div>
+        </article>
+
+        <article class="legal-block">
+          <h2 data-i18n="access.date">Status Date</h2>
+          <div>
+            <p data-i18n="access.date.text">
+              Last reviewed: June 2026. This statement refers to the locally
+              delivered HTML version of this website.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Kessler Services AG</span>
+      <span data-i18n="footer.claim">Bellach SO · Technology-Driven Wealth Solutions · Digital Systems · Personal Guidance</span>
+      <span class="footer-links">
+        <a href="index.html" data-i18n="footer.home">Home</a>
+        <a href="impressum.html" data-i18n="footer.legal">Legal Notice</a>
+        <a href="agb.html" data-i18n="footer.terms">Terms</a>
+      </span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
