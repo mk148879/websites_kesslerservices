@@ -1,0 +1,2 @@
+# Contains database passwords and secret keys - never commit
+wp-config.php
